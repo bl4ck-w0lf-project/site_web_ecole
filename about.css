@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+header{
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    z-index: 1000;
+    transition: background-color 0.8s, color 0.5s ;
+}
+.default{
+    background-color: transparent;
+}
+.scrolled{
+    background-color: white;
+
+}
+.scrolled #span2, .scrolled nav ul li a{
+        color: black;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+#span1{
+    color: green;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#span2{
+    color: white;
+}
+.para{
+    margin-left: 10px;
+    
+}
+.image{
+    width: 50px;
+    height: 50px;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    z-index: 1000;
+    top: 0;
+    margin-left: 10rem;
+}
+nav ul{
+    display: flex;
+    margin-left: 40rem;
+}
+nav ul li{
+    padding: 35px 10px;
+    list-style-type: none;
+}
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;   
+    transition: color 1s;
+}
+nav ul li a:hover{
+    color: rgb(239, 16, 112);
+}
+#about{
+    width: 100%;
+    height: 600px;
+    background-image: url("./dalle.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(134, 136, 140);
+    background-blend-mode: multiply;
+    
+}
+#about h1{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 25rem 0rem 0rem 2rem;
+    color: white;
+    font-size: 35px;
+}
+.presentation{
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+}
+#fonde{
+    width: 50%;
+}
+#fonde img{
+    margin-left: 15rem;
+    width:500px;
+    height: 500px;
+}
+#texte{
+    width: 50%;
+    padding-left: 5px;
+}
+#texte p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    text-align: justify;
+    line-height: 25px;
+}
+#texte h1{
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.aboutus{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+#choiceus h2, #ourmissions h2, #ourvisions h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+#choiceus p, #ourmissions p, #ourvisions p{
+    line-height: 20px;
+    padding-top: 10px;
+    color: gray;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#choiceus, #ourmissions, #ourvisions{
+    padding: 0rem 2rem;
+}
+
+.choice h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.underline{
+    margin-top: 9px;
+    margin-left: 47rem;
+    width: 3%;
+    border-bottom: 4px solid black;
+    border-radius: 100px;
+    font-size: 25px;
+}
+.underline2{
+    margin-top: 9px;
+    margin-left: 45rem;
+    width: 3%;
+    border-bottom: 4px solid black;
+    border-radius: 100px;
+    font-size: 25px;
+}
+.choice1{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block1, .block2, .block3{
+    justify-items: center;
+    padding: 4rem 2rem;
+    box-shadow: 0px 0px 1px black;
+    height: 550px;
+    
+}
+.block1 img, .block2 img, .block3 img{
+    width: 400px;
+    height: 400px;
+}
+.block1 h2, .block2 h2, .block3 h2{
+    margin-top: 1rem;
+}
+.block1 p, .block2 p, .block3 p{
+    margin-top: 1rem;
+    text-align: center;
+}
+.message{
+    width: 17%;
+    display: flex;
+    background-color: rgb(27, 206, 63);
+    border-radius: 50px;
+    padding: 0px 35px;
+    font-size: 20px;
+    color: white;
+    margin-left: 73rem;
+    position: fixed;
+    z-index: 1000;
+    bottom: 5rem;
+}
+.third{
+    margin-top: 3rem;
+    background-color: rgb(30, 50, 75);
+    width: 100%;
+    height: 700px;
+    color: white;
+    margin-bottom: 5rem;
+}
+#infos{
+    float: left;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
+#infos h1{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    
+}
+#infos #adaptext{
+    margin-bottom: 1rem;
+
+}
+#infos .writeus p{
+    text-align: left;
+    word-spacing: 1px;
+    
+}
+#writeustitle{
+    font-weight: bolder;
+    font-size: 40px;
+}
+#writeustext{
+    font-weight: bolder;
+}
+#moreinfos {
+    text-transform: capitalize;
+}
+#form{
+    float: right;
+    margin-top: 4rem;
+    margin-right: 16rem;
+    background-color: rgb(18, 18, 63);
+    width: 380px;
+    height: 480px;
+}
+textarea{
+    width: 87%;
+    height: 80px;
+    outline-color: rgb(6, 6, 47);
+}
+#form h1{
+    float: left;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+#form input[type="text"],#form input[type="email"]{
+    margin: 10px 0px;
+    padding: 3px 0px;
+    display: block;
+    width: 87%;
+    height: 30px;
+    outline-color: rgb(6, 6, 47);
+}
+*::placeholder{
+    padding-left: 10px;
+    color: gray;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+input[type="submit"]{
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    color: white;
+    background-color: rgb(239, 16, 112);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+#status{
+    margin-left: 7rem;
+    margin-top: 5rem;
+    float: left;
+    display: flex;
+    height: 140px;
+    
+}
+#students, #teachers, #graduate{
+    border: 1px dashed green;
+    border-radius: 8px;
+}
+#students{
+    float: left;
+    padding: 1rem 8rem 1rem 1rem;
+}
+#teachers{
+    margin-left: 2rem;
+    padding: 1rem 8rem 1rem 1rem;
+}
+#graduate{
+    float: right;
+    margin-left: 2rem;
+    padding: 1rem 7rem 1rem 1rem;
+}
+#statseleves h1, #statteach h1, #statgrade h1{
+    font-size: 30px;
+}
+#statseleves, #statteach, #statgrade{
+    padding-top: 20px;
+}
+.fa-graduation-cap, .fa-user-tie, .fa-face-smile{
+    font-size: 35px;
+    color: green;
+}
+.message p{
+  padding: 15px 9px;
+}
+.message .fa-whatsapp{
+    padding: 15px 0px;
+    font-size: 25px;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+#testimony{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+#testimony h1{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#testimony p{
+    color: gray;
+    margin-top: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#carriers{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+#carriers #students1 img, #carriers #students2 img{
+    width: 300px;
+    height: 300px;
+}
+#carriers #students1{
+    margin-left: 8rem;
+    padding: 40px 40px;
+    box-shadow: 0px 0px 10px black;
+    justify-items: center;
+    height: 600px;
+    background-color: white;
+}
+#carriers #students1 h2, #carriers #students2 h2{
+     margin: 30px  0px 0px 0px;
+}
+#carriers #students1 p, #carriers #students2 p{
+    text-align: center;
+    color: gray;
+    margin: 10px 0px;
+}
+.carrierre{
+    margin: 0px 0px;
+    
+}
+#carriers #students2{
+    margin-left: 2rem;
+    padding: 40px 40px;
+    box-shadow: 0px 0px 10px black;
+    justify-items: center;
+    height: 600px;
+    background-color: white;
+}
+footer{
+    display: flex;
+    background-color: rgb(18, 18, 63);
+    height: 40px;
+    padding: 1rem 0rem;
+    width: 100%;
+    float: left;
+    margin-top: 3rem;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    transition: color 1s;
+}
+#nav a:hover{
+    color: rgb(239, 16, 112);
+}
+#nav{
+    margin-left: 7rem;
+}
+.droits{
+    padding: 0rem 0rem;
+    color: white;
+    margin-left: 35rem;  
+}
